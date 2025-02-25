@@ -22,3 +22,6 @@ while ($fila = mysqli_fetch_assoc($r)) {
         }
 
         echo "</table>";
+} else {
+        echo "No se encontró ninguna persona.";
+}
